@@ -5,7 +5,7 @@ import App from './App';
 
 // const elem = <h2>Hello world!</h2>;
 
-const elem = React.createElement('h2', {className: 'greeting'}, 'Hello world!')
+const elem = React.createElement('h2', {className: 'greeting'}, 'Hello ')
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
